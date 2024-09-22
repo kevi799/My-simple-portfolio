@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Sofadi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    top: 0; 
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8FBABC;
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;  
+    overflow: auto;  
+}
+
+
+#Name {
+    font-size: 150px;  
+    color: transparent;  
+    background-image: url(images/Blue\ motion.jpeg); 
+    background-clip: text;  
+    -webkit-background-clip: text; 
+    font-family: 'Creepster', sans-serif; 
+    margin-top: 5px;
+}
+
+#Myimage {
+    width: 400px;  
+    height: auto; 
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 4vh;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 1500px;
+    text-align: center;
+    background-image: url(images/Developer\ programmer\ -Программист-разработчик.jpeg);
+}
+
+.about p {
+    color: white;
+    background-image: url(images/Deep\ blue\ space.jpeg);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-clip: text;  
+    -webkit-background-clip: text; 
+}
+.images {
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+
+}
+.images img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
